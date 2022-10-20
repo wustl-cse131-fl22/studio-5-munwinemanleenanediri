@@ -30,6 +30,7 @@ public class SubstituteAllTest {
 
 		String actualPrime = Methods.substituteAll(actual, 't', "truth");
 		assertEquals("beautruthy is truth, truth beautruthy,", actualPrime);
+		
 	}
 
 	@Test
@@ -44,5 +45,6 @@ public class SubstituteAllTest {
 
 		String actualPrimePrime = Methods.substituteAll(actualPrime, '!', "not");
 		assertEquals("to be or not to be", actualPrimePrime);
+		
 	}
 }
